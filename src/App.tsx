@@ -19,8 +19,6 @@ const PdfViewer: React.FC = () => {
 
   return (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-      <h1>PDF Viewer</h1>
-
       <Document
         file="/Resume.pdf"
         onLoadSuccess={onDocumentLoadSuccess}
